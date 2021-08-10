@@ -16,7 +16,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 article {
   padding: var(--padding);
 

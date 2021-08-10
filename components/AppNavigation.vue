@@ -12,7 +12,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 nav {
   position: relative;
   display: flex;

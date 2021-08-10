@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 ul {
   list-style: none;
   margin: auto;

@@ -25,10 +25,10 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 * {
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
   box-sizing: border-box;
 }
 
@@ -63,12 +63,12 @@ export default {}
     list-style: none;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   a:hover {
     text-decoration: underline;
+  }
+
+  .nuxt-link-exact-active {
+    font-weight: var(--text);
   }
 }
 </style>

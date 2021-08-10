@@ -37,6 +37,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
+    '@nuxt/postcss8',
     '@nuxtjs/eslint-module',
   ],
 
@@ -46,6 +47,25 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+			parser: 'postcss-scss',
+			plugins: {
+				'postcss-nested': {},
+			},
+			preset: {
+				features: {
+					'nesting-rules': true,
+					'custom-media-queries': true,
+				},
+				importFrom: [
+					// './assets/css/variables.css',
+					// './assets/css/breakpoints.css',
+				],
+				autoprefixer: {
+					grid: true,
+				},
+			},
+		},
     babel: {
       plugins: [['@babel/plugin-proposal-private-property-in-object', { loose: true }]],
     }

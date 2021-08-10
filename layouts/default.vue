@@ -10,7 +10,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 :root {
   --dark-gray: rgb(46, 46, 46);
   --light-gray: rgb(226, 226, 226);
@@ -22,7 +22,7 @@ export default {}
   --text-line-height: 1.6;
 }
 
-a.nuxt-link-exact-active {
+.nuxt-link-exact-active {
   font-weight: var(--text-bold);
 }
 
@@ -34,7 +34,6 @@ html {
   font-family: 'Oxygen';
   text-decoration: none;
   color: var(--dark-gray);
-  line-height: var(--text-line-height);
 }
 
 h1 {
@@ -46,7 +45,11 @@ p {
   width: 40vw;
 }
 
-a,
+a {
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+
 a:visited {
   color: var(--dark-gray);
 }

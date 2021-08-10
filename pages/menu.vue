@@ -12,7 +12,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 #menu {
   background-color: var(--bkg-color);
   padding: var(--padding);

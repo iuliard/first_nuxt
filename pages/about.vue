@@ -9,7 +9,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="postcss">
 #about {
   background-color: var(--bkg-color);
   padding: var(--padding);
