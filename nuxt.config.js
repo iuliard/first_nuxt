@@ -21,7 +21,12 @@ export default {
         href: "https://fonts.googleapis.com/css2?family=Oxygen&display=swap",
       },
     ]
-  },
+	},
+	// :)
+	pageTransition: {
+		name: 'fade',
+		mode: 'out-in',
+	},
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [

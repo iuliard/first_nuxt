@@ -11,7 +11,7 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "core-js": "^3.15.1",
+    "core-js": "^3.16.1",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
@@ -24,6 +24,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.12.1",
     "fibers": "^5.0.0",
+    "postcss": "^8.3.6",
     "postcss-nested": "^5.0.6",
     "postcss-scss": "^4.0.0",
     "prettier": "^2.3.2"
